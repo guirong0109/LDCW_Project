@@ -55,24 +55,7 @@ void mainMenu() {
         cout << "4. Exit Program\n";
         cout << "===================================\n";
         cout << "Enter your choice: ";
-        cin >> choice;
-        clearInputBuffer();
-
-        switch(choice) {
-            case 1:
-                calculateWasteReduction();
-                break;
-            case 2:
-                showHistory();
-                break;
-            case 3:
-                displayEnvironmentalTips();
-                break;
-            case 4:
-                cout << "\nExiting program. Thank you for using our Smart Waste Management System!\n";
-                break;
-            default:
-                cout << "Invalid choice. Please try again.\n";
+ n";
         }
     } while(choice != 4);
 }
