@@ -209,7 +209,7 @@ void showHistory() {
         for (double val : reductionHistory) avgReduction += val;
         avgReduction /= reductionHistory.size();
 
-        cout << "\n📊 STATISTICS:\n";
+        cout << "\n STATISTICS:\n";
         cout << "  Max Reduction: " << maxReduction << " kg/week\n";
         cout << "  Min Reduction: " << minReduction << " kg/week\n";
         cout << "  Avg Reduction: " << avgReduction << " kg/week\n";
